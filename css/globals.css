@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+a,
+ul,
+p,
+h1,
+h2,
+h3,
+h4 {
+    font-size: inherit;
+    line-height: inherit;
+    padding: 0 0;
+    margin: 0 0;
+}
+
+body {
+    position: relative;
+    font-family: var(--codepro);
+    font-size: var(--size16);
+    font-weight: var(--weight400);
+    line-height: var(--lineheight);
+    background: rgb(41, 38, 38);
+    color: white;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+main {
+    flex: 1;
+    gap: var(--gap-normal);
+    max-width: 2000px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+

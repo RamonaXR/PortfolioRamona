@@ -1,0 +1,23 @@
+:root {
+    --codepro: "Source Code Pro", monospace;
+    
+
+    --weight400: 400;
+    --weight500: 500;
+    --weight600: 600;
+
+    --lineheight: 1.5;
+
+    --size16: 1rem;
+    --size20: 1.25rem;
+    --size24: 1.5rem;
+    --size32: 2rem;
+    --size36: 2.25rem;
+    --size48: 3rem;
+
+    --border-radius: 20px; 
+    --gap-normal: 20px;
+    --padding-10: 10px;
+    --padding-15: 15px;
+    --padding-20: 20px;
+}
