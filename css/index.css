@@ -15,37 +15,45 @@
     text-shadow: 0 0 10px purple;
 }
 
+
+
 .project-card {
-    width: 300px; 
-    height: 200px;
+    width: 700px; 
+    height: auto;
     display: flex;
+    flex-direction: row;
     overflow: hidden;
     transition: width 0.5s ease; 
     position: relative; 
+    margin-bottom: 40px;
   }
   
   .project-image img {
-    width: 100%;
-    height: auto;
+    object-fit: cover; 
+    flex-shrink: 0;
+    height: 100%;
+    width: 800px;
   }
   
   .project-info {
     position: absolute;
     right: -100%; 
     top: 0;
-    background-color: #ffff; 
-    color: #000; 
+    background-color: rgb(54, 51, 54);
+    color: #ffffff; 
     width: 300px; 
     height: 100%;
     padding: 20px;
     box-sizing: border-box;
     transition: right 0.5s ease; 
   }
+
   
   .project-card:hover {
-    width: 600px;
+    width: 800px;
   }
   
   .project-card:hover .project-info {
     right: 0; 
   }
+
