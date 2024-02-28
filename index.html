@@ -1,79 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio | Ramona</title>
-    <link rel="stylesheet" href="./css/index.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <header>
-    <nav class="navigation">
-        <div class="flex justify-center align-items-center closing-btn">
-            <i class="fa-solid fa-xmark fa-lg"></i>
-        </div>
-        <ul class="flex">
-            <li class="links-header"><a href="#">My work</a></li>
-            <li class="links-header"><a href="#">About</a></li>
-            <li class="links-header"><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-    </header>
-    <main>
-        <h1 class="neonfont">Welcome to my portfolio</h1>
-        <section>
-            <h2>Hi, my name is Ramona</h2>
-            <h3 class="neonfont">I am a Frontend-Student</h3>
-            <p>About paragraph</p>
-            <a href="#" class="neonfont"></a><a href="#" class="neonfont"></a><a href="#" class="neonfont"></a>
-            <img src="images/portfolio.jpg" alt="AI-generated image of girl with code covering her face" class="portfolio-image">
-        </section>
-        <h2>My work</h2>
-        <div class="flex flex-row justify-center projects-container">
-        <section class="project-section">
-            <div class="project-card">
-                <div class="project-image">
-                  <img src="images/Screenshot 2024-02-26 at 19.50.45.png" alt="Project Image"/>
-                </div>
-                <div class="project-info">
-                  <h3 class="neonfont">Project Exam 1</h3>
-                  <p>Description of the project...</p>
-                  <a href="#">Link 1</a>
-                  <a href="#">Link 2</a>
-                </div>
-              </div>
-              <div class="project-card">
-                <div class="project-image">
-                  <img src="images/Screenshot 2024-02-27 at 19.27.31.png" alt="Project Image"/>
-                </div>
-                <div class="project-info">
-                  <h3>Semester Project 1</h3>
-                  <p>Description of the project...</p>
-                  <a href="#">Link 1</a>
-                  <a href="#">Link 2</a>
-                </div>
-              </div>
-              <div class="project-card">
-                <div class="project-image">
-                  <img src="images/Screenshot 2024-02-27 at 19.26.38.png" alt="Project Image"/>
-                </div>
-                <div class="project-info">
-                  <h3>Cross course project</h3>
-                  <p>Description of the project...</p>
-                  <a href="#">Link 1</a>
-                  <a href="#">Link 2</a>
-                </div>
-              </div> 
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfolio | Ramona</title>
+        <link rel="stylesheet" href="./css/index.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+            rel="stylesheet"
+        />
+        <script type="module" src="js/index.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="navigation">
+                <ul class="flex">
+                    <li class="links-header"><a href="#my-work">My work</a></li>
+                    <li class="links-header"><a href="#about">About</a></li>
+                    <li class="links-header"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1 class="neonfont">Welcome to my portfolio</h1>
+            <section id="about">
+                <h2>Hi, my name is Ramona</h2>
+                <h3 class="neonfont">I am a Frontend-Student</h3>
+                <p>About paragraph</p>
+                <a href="#" class="neonfont"></a
+                ><a href="#" class="neonfont"></a
+                ><a href="#" class="neonfont"></a>
+                <img
+                    src="images/portfolio.jpg"
+                    alt="AI-generated image of girl with code covering her face"
+                    class="portfolio-image"
+                />
             </section>
+            <h2 class="work-h2 neonfont-green flex justify-center">Some of my work:</h2>
+            <div class="flex flex-row justify-center projects-container">
+                <section class="project-section" id="my-work">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img
+                                src="images/Screenshot 2024-02-26 at 19.50.45.png"
+                                alt="Project Image"
+                            />
+                        </div>
+                        <div class="project-info">
+                            <h3 class="neonfont-green">Project Exam 1</h3>
+                            <p>Description of the project...</p>
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img
+                                src="images/Screenshot 2024-02-27 at 19.27.31.png"
+                                alt="Project Image"
+                            />
+                        </div>
+                        <div class="project-info">
+                            <h3>Semester Project 1</h3>
+                            <p>Description of the project...</p>
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img
+                                src="images/Screenshot 2024-02-27 at 19.26.38.png"
+                                alt="Project Image"
+                            />
+                        </div>
+                        <div class="project-info">
+                            <h3>Cross course project</h3>
+                            <p>Description of the project...</p>
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                        </div>
+                    </div>
+                </section>
             </div>
-    
-    <section>
-        Contact
-    </section>
-    </main>
-    <footer></footer>
-  </body>
+
+            <section id="contact">
+                <div>Hello</div>
+                <p>Lots of content to see if this works</p>
+                <p>checking if this works</p>
+            </section>
+        </main>
+        <footer></footer>
+    </body>
 </html>

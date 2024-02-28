@@ -1,6 +1,7 @@
 @import url(globals.css);
 @import url(utility.css);
 @import url(variables.css);
+@import url(media.css);
 
 
 .portfolio-image {
@@ -15,7 +16,21 @@
     text-shadow: 0 0 10px purple;
 }
 
+.neonfont-green {
+    color: rgb(36, 187, 107);
+    text-shadow: 0 0 10px rgb(36, 110, 51);
+}
 
+.work-h2 {
+    font-size: var(--size32);
+}
+
+.work-h2 {
+    padding: var(--padding-20);
+    margin-bottom: 40px;
+}
+
+/*
 
 .project-card {
     width: 700px; 
@@ -26,13 +41,14 @@
     transition: width 0.5s ease; 
     position: relative; 
     margin-bottom: 40px;
+    padding: 20px;
   }
   
   .project-image img {
     object-fit: cover; 
-    flex-shrink: 0;
-    height: 100%;
-    width: 800px;
+    display: block; 
+    margin: 20px auto;
+    max-width: 100%;
   }
   
   .project-info {
@@ -57,3 +73,71 @@
     right: 0; 
   }
 
+  */
+
+  header {
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px 0; 
+    position: sticky; 
+    top: 0; 
+    z-index: 1000; 
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px; 
+}
+
+.links-header a {
+    color: #fff; 
+    text-decoration: none;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+}
+
+.links-header a:hover, .links-header a.active {
+    background-color: #555; 
+}
+
+
+
+
+  .project-card {
+    position: relative;
+    overflow: hidden; 
+    transition: width 0.5s ease;
+    margin-bottom: 20px;
+}
+
+.project-info {
+    position: absolute;
+    right: -100%; 
+    top: 0;
+    background-color: rgb(54, 51, 54);
+    color: #ffffff;
+    width: 300px;
+    min-height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: right 0.5s ease;
+}
+
+
+
+  .project-image img {
+    
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  
+
+  

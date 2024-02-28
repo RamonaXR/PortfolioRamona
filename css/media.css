@@ -1,0 +1,27 @@
+/* Mobile views */
+
+@media (max-width: 600px) {
+    .navigation ul {
+        flex-direction: column;
+    }
+}
+
+
+
+@media (min-width: 750px) {
+    .project-card {
+      max-width: 800px; 
+      
+    }
+  
+    .project-image img {
+      margin: 0; 
+      width: auto; 
+      min-height: 300px;
+    }
+  
+  
+    .project-card:hover .project-info {
+      right: 0; 
+    }
+  }
