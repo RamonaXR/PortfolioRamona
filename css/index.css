@@ -3,7 +3,6 @@
 @import url(variables.css);
 @import url(media.css);
 
-
 .portfolio-image {
     border-radius: 50%;
     max-height: 250px;
@@ -16,7 +15,7 @@
     text-shadow: 0 0 10px purple;
 }
 
-.neonfont-green {
+.neonfont-pink {
     color: rgb(232, 119, 185);
     text-shadow: 0 0 10px rgb(110, 36, 79);
 }
@@ -81,13 +80,13 @@
 
   */
 
-  header {
-    background-color: #333; 
-    color: #fff; 
-    padding: 10px 0; 
-    position: sticky; 
-    top: 0; 
-    z-index: 1000; 
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     margin-bottom: 40px;
 }
 
@@ -96,36 +95,34 @@
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: center; 
-    align-items: center; 
-    gap: 20px; 
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .links-header a {
-    color: #fff; 
+    color: #fff;
     text-decoration: none;
-    padding: 10px 20px; 
-    border-radius: 5px; 
-    transition: background-color 0.3s; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
 }
 
-.links-header a:hover, .links-header a.active {
-    background-color: #555; 
+.links-header a:hover,
+.links-header a.active {
+    background-color: #555;
 }
 
-
-
-
-  .project-card {
+.project-card {
     position: relative;
-    overflow: hidden; 
+    overflow: hidden;
     transition: width 0.5s ease;
     margin-bottom: 20px;
 }
 
 .project-info {
     position: absolute;
-    right: -100%; 
+    right: -100%;
     top: 0;
     background-color: rgb(54, 51, 54);
     color: #ffffff;
@@ -136,23 +133,19 @@
     transition: right 0.5s ease;
 }
 
-
-
-  .project-image img {
-    
+.project-image img {
     max-width: 100%;
     height: auto;
-  }
-  
-  .fa-code,
-  .fa-chevron-left,
-  .fa-chevron-right,
-  .h2-bottom {
+}
+
+.fa-code,
+.fa-chevron-left,
+.fa-chevron-right,
+.h2-bottom {
     font-size: var(--size32);
-  }
-    
-  
-  
+}
 
-
-
+footer i {
+    font-size: var(--size24);
+    padding: var(--padding-10);
+}
