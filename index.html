@@ -12,9 +12,9 @@
             rel="stylesheet"
         />
         <script
-      src="https://kit.fontawesome.com/a2089e7094.js"
-      crossorigin="anonymous"
-    ></script>
+            src="https://kit.fontawesome.com/a2089e7094.js"
+            crossorigin="anonymous"
+        ></script>
         <script type="module" src="js/index.js"></script>
     </head>
     <body>
@@ -27,13 +27,17 @@
                 </ul>
             </nav>
         </header>
-        <main>
+        <main id="about">
             <div class="flex justify-center">
                 <i class="fa-solid fa-chevron-left"></i>
                 <i class="fa-solid fa-chevron-right"></i>
             </div>
-            <h1 class="h1-top neonfont flex justify-center">Welcome to my portfolio</h1>
-            <section id="about" class="about-section flex justify-center align-items-center flex-column">
+            <h1 class="h1-top neonfont flex justify-center">
+                Welcome to my portfolio
+            </h1>
+            <section
+                class="about-section flex justify-center align-items-center flex-column"
+            >
                 <h2>Hi, my name is Ramona</h2>
                 <h3 class="neonfont">I am a Frontend-Student</h3>
                 <p>About paragraph</p>
@@ -46,22 +50,25 @@
                     class="portfolio-image"
                 />
             </section>
-            <h2 class="work-h2 neonfont-pink flex justify-center">Some of my work:</h2>
-            <div class="flex flex-row justify-center projects-container">
-                <section class="project-section" id="my-work">
+            
+            <div class="flex flex-row justify-center projects-container" id="my-work">
+                <section class="project-section">
+                    <h2 class="work-h2 neonfont-pink flex justify-center" >
+                        Some of my work:
+                    </h2>
                     <div class="project-card">
                         <div class="project-image">
                             <img
                                 src="images/Screenshot 2024-02-26 at 19.50.45.png"
                                 alt="Project Image"
                             />
-                        </div>
-                        <div class="project-info">
-                            <h3 class="neonfont">Project Exam 1</h3>
-                            <h4>Beauty by Ramona</h4>
-                            <p>Description of the project...</p>
-                            <a href="#">Link 1</a>
-                            <a href="#">Link 2</a>
+                            <div class="project-info">
+                                <h3 class="neonfont">Project Exam 1</h3>
+                                <h4>Beauty by Ramona</h4>
+                                <p>Description of the project...</p>
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                            </div>
                         </div>
                     </div>
                     <div class="project-card">
@@ -70,13 +77,13 @@
                                 src="images/Screenshot 2024-02-27 at 19.27.31.png"
                                 alt="Project Image"
                             />
-                        </div>
-                        <div class="project-info">
-                            <h3>Semester Project 1</h3>
-                            <h4>Community Science Museum</h4>
-                            <p>Description of the project...</p>
-                            <a href="#">Link 1</a>
-                            <a href="#">Link 2</a>
+                            <div class="project-info">
+                                <h3>Semester Project 1</h3>
+                                <h4>Community Science Museum</h4>
+                                <p>Description of the project...</p>
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                            </div>
                         </div>
                     </div>
                     <div class="project-card">
@@ -85,21 +92,23 @@
                                 src="images/Screenshot 2024-02-27 at 19.26.38.png"
                                 alt="Project Image"
                             />
-                        </div>
-                        <div class="project-info">
-                            <h3>Cross course project</h3>
-                            <h4>Rainy Days</h4>
-                            <p>Description of the project...</p>
-                            <a href="#">Link 1</a>
-                            <a href="#">Link 2</a>
+                            <div class="project-info">
+                                <h3>Cross course project</h3>
+                                <h4>Rainy Days</h4>
+                                <p>Description of the project...</p>
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                            </div>
                         </div>
                     </div>
                 </section>
             </div>
         </main>
         <footer>
-            
-            <section id="contact" class="flex justify-center align-items-center flex-column">
+            <section
+                id="contact"
+                class="flex justify-center align-items-center flex-column"
+            >
                 <h2 class="h2-bottom neonfont-pink">Contact</h2>
                 <p>@ 2024 Ramona Jensen</p>
                 <a href="#">
@@ -108,7 +117,9 @@
                 <a href="#"><i class="fa-brands fa-github neonfont"></i></a>
                 <a href="#"><i class="fa-brands fa-linkedin neonfont"></i></a>
             </section>
-        <div class="flex justify-center"><i class="fa-solid fa-code"></i></div>
+            <div class="flex justify-center">
+                <i class="fa-solid fa-code"></i>
+            </div>
         </footer>
     </body>
 </html>
