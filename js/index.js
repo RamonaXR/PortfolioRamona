@@ -1,4 +1,6 @@
 // Smooth scroll for navigation links
+/*
+
 document.querySelectorAll('.navigation a').forEach(link => {
     link.addEventListener('click', function(e) {
         e.preventDefault();
@@ -9,7 +11,8 @@ document.querySelectorAll('.navigation a').forEach(link => {
         }
     });
 });
-
+*/
+/*
 window.addEventListener('scroll', () => {
     let fromTop = window.scrollY;
 
@@ -27,6 +30,7 @@ window.addEventListener('scroll', () => {
     });
 });
 
+*/
 // Height cards 
 
 
