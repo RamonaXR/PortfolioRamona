@@ -11,21 +11,29 @@
             href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
             rel="stylesheet"
         />
+        <script
+      src="https://kit.fontawesome.com/a2089e7094.js"
+      crossorigin="anonymous"
+    ></script>
         <script type="module" src="js/index.js"></script>
     </head>
     <body>
         <header>
             <nav class="navigation">
                 <ul class="flex">
-                    <li class="links-header"><a href="#my-work">My work</a></li>
                     <li class="links-header"><a href="#about">About</a></li>
+                    <li class="links-header"><a href="#my-work">My work</a></li>
                     <li class="links-header"><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
         <main>
-            <h1 class="neonfont">Welcome to my portfolio</h1>
-            <section id="about">
+            <div class="flex justify-center">
+                <i class="fa-solid fa-chevron-left"></i>
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <h1 class="h1-top neonfont flex justify-center">Welcome to my portfolio</h1>
+            <section id="about" class="about-section flex justify-center align-items-center flex-column">
                 <h2>Hi, my name is Ramona</h2>
                 <h3 class="neonfont">I am a Frontend-Student</h3>
                 <p>About paragraph</p>
@@ -49,7 +57,7 @@
                             />
                         </div>
                         <div class="project-info">
-                            <h3 class="neonfont-green">Project Exam 1</h3>
+                            <h3 class="neonfont">Project Exam 1</h3>
                             <p>Description of the project...</p>
                             <a href="#">Link 1</a>
                             <a href="#">Link 2</a>
@@ -85,13 +93,17 @@
                     </div>
                 </section>
             </div>
-
-            <section id="contact">
-                <div>Hello</div>
-                <p>Lots of content to see if this works</p>
-                <p>checking if this works</p>
-            </section>
         </main>
-        <footer></footer>
+        <footer>
+            
+            <section id="contact" class="flex justify-center align-items-center flex-column">
+                <h2 class="h2-bottom neonfont">Contact</h2>
+                <p>@ 2024 Ramona Jensen</p>
+                <a href="#"><i>Mail</i></a>
+                <a href="#"><i>Github</i></a>
+                <a href="#"><i>Linkedin</i></a>
+            </section>
+        <div class="flex justify-center"><i class="fa-solid fa-code"></i></div>
+        </footer>
     </body>
 </html>

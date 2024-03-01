@@ -6,9 +6,9 @@
 
 .portfolio-image {
     border-radius: 50%;
-    height: 250px;
+    max-height: 250px;
     box-shadow: 0 0 20px 10px rgb(182, 96, 182);
-    margin: 20px;
+    margin: 30px 0;
 }
 
 .neonfont {
@@ -17,8 +17,8 @@
 }
 
 .neonfont-green {
-    color: rgb(36, 187, 107);
-    text-shadow: 0 0 10px rgb(36, 110, 51);
+    color: rgb(232, 119, 185);
+    text-shadow: 0 0 10px rgb(110, 36, 79);
 }
 
 .work-h2 {
@@ -28,6 +28,12 @@
 .work-h2 {
     padding: var(--padding-20);
     margin-bottom: 40px;
+}
+
+.h1-top {
+    padding: var(--padding-20);
+    font-size: var(--size32);
+    text-align: center;
 }
 
 /*
@@ -82,6 +88,7 @@
     position: sticky; 
     top: 0; 
     z-index: 1000; 
+    margin-bottom: 40px;
 }
 
 .navigation ul {
@@ -137,7 +144,15 @@
     height: auto;
   }
   
+  .fa-code,
+  .fa-chevron-left,
+  .fa-chevron-right,
+  .h2-bottom {
+    font-size: var(--size32);
+  }
+    
   
   
 
-  
+
+
