@@ -1,0 +1,27 @@
+.fa-code,
+.fa-chevron-left,
+.fa-chevron-right,
+.h2-bottom,
+.work-h2,
+.h1-top {
+    font-size: var(--size32);
+}
+
+footer i {
+    font-size: var(--size24);
+}
+
+.neonfont {
+    text-shadow: 0 0 10px purple;
+}
+
+.neonfont-pink {
+    text-shadow: 0 0 10px rgb(110, 36, 79);
+}
+
+.work-h2,
+.h1-top {
+    text-align: center;
+    
+}
+

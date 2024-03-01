@@ -1,7 +1,58 @@
 @import url(globals.css);
 @import url(utility.css);
 @import url(variables.css);
+@import url(typography.css);
+@import url(styling.css);
 @import url(media.css);
+
+
+
+/* Paddings */ 
+
+.h1-top,
+.work-h2,
+.project-info,
+.projects-container {
+    padding: var(--padding-20);
+}
+
+footer i {
+    padding: var(--padding-10);
+}
+
+.navigation ul {
+    padding: 0;
+}
+
+/* Margins */ 
+
+.h2-bottom,
+.projects-container {
+    margin-top: 50px;
+}
+
+.project-card {
+    margin-bottom: 20px;
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+.navigation ul {
+    margin: 0;
+}
+
+
+
+/* Height & Widths */ 
+
+
+/* Colors */ 
+
+
+/* Other stylings */ 
+
 
 .portfolio-image {
     border-radius: 50%;
@@ -13,74 +64,18 @@
 
 .neonfont {
     color: rgb(220, 28, 217);
-    text-shadow: 0 0 10px purple;
 }
 
 .neonfont-pink {
     color: rgb(232, 119, 185);
-    text-shadow: 0 0 10px rgb(110, 36, 79);
 }
 
-.work-h2 {
-    font-size: var(--size32);
-}
 
 .work-h2 {
     margin-bottom: 40px;
-    text-align: center;
-    padding: var(--padding-20);
 }
 
-.h1-top {
-    padding: var(--padding-20);
-    font-size: var(--size32);
-    text-align: center;
-}
 
-/*
-
-.project-card {
-    width: 700px; 
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    overflow: hidden;
-    transition: width 0.5s ease; 
-    position: relative; 
-    margin-bottom: 40px;
-    padding: 20px;
-  }
-  
-  .project-image img {
-    object-fit: cover; 
-    display: block; 
-    margin: 20px auto;
-    max-width: 100%;
-  }
-  
-  .project-info {
-    position: absolute;
-    right: -100%; 
-    top: 0;
-    background-color: rgb(54, 51, 54);
-    color: #ffffff; 
-    width: 300px; 
-    height: 100%;
-    padding: 20px;
-    box-sizing: border-box;
-    transition: right 0.5s ease; 
-  }
-
-  
-  .project-card:hover {
-    width: 800px;
-  }
-  
-  .project-card:hover .project-info {
-    right: 0; 
-  }
-
-  */
 
 header {
     background-color: #333;
@@ -89,17 +84,11 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
-    margin-bottom: 40px;
 }
 
 .navigation ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+    gap: var(--gap-normal)
 }
 
 .links-header a {
@@ -119,7 +108,6 @@ header {
     position: relative;
     overflow: hidden;
     transition: width 0.5s ease;
-    margin-bottom: 20px;
 }
 
 .project-info {
@@ -130,17 +118,10 @@ header {
     color: #ffffff;
     max-width: 300px;
     height: 100%;
-    padding: var(--padding-20);
     box-sizing: border-box;
     transition: right 0.5s ease;
 }
 
-
-
-.projects-container {
-    padding: var(--padding-20);
-    margin-top: 50px;
-}
 
 .project-image img {
     max-width: 100%;
@@ -151,18 +132,3 @@ header {
     position: relative;
 }
 
-.fa-code,
-.fa-chevron-left,
-.fa-chevron-right,
-.h2-bottom {
-    font-size: var(--size32);
-}
-
-footer i {
-    font-size: var(--size24);
-    padding: var(--padding-10);
-}
-
-.h2-bottom {
-    margin-top: 50px;
-}
