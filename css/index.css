@@ -31,11 +31,13 @@ footer i {
     margin-top: 50px;
 }
 
-.project-card {
+.project-card,
+.about-section p {
     margin-bottom: 20px;
 }
 
-header {
+header,
+.project-info {
     margin-bottom: 40px;
 }
 
@@ -123,14 +125,17 @@ header {
 }
 */
 
-.project-info {
+.project-info,
+.about-section {
     text-align: center;
 }
 
 .project-info h2, 
 .project-info h3,
 .project-info p, 
-.project-info a {
+.project-info a,
+.p-about,
+.h3-about {
     padding: var(--padding-10);
 }
 
