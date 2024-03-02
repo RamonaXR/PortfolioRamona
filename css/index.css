@@ -103,7 +103,7 @@ header {
 .links-header a.active {
     background-color: #555;
 }
-
+/*
 .project-card {
     position: relative;
     overflow: hidden;
@@ -120,6 +120,18 @@ header {
     height: 100%;
     box-sizing: border-box;
     transition: right 0.5s ease;
+}
+*/
+
+.project-info {
+    text-align: center;
+}
+
+.project-info h2, 
+.project-info h3,
+.project-info p, 
+.project-info a {
+    padding: var(--padding-10);
 }
 
 
