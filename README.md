@@ -6,10 +6,10 @@ Looking forward to working further on it, and adding new projects.
 
 ## Built with:
 
--[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+-   [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
--[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+-   [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-# Portfolio live-site
+# Portfolio link
 
 [Deployed site](https://portfolio-ramona.netlify.app/)
