@@ -1,0 +1,128 @@
+/* Paddings */ 
+
+.h1-top,
+.work-h2,
+.project-info,
+.projects-container {
+    padding: var(--padding-20);
+}
+
+
+footer i
+.project-info h2, 
+.project-info h3,
+.project-info p, 
+.project-info a,
+.p-about,
+.h3-about,
+.contact-socials a,
+.end-tag {
+    padding: var(--padding-10);
+}
+
+.navigation ul {
+    padding: 0;
+}
+
+header {
+    padding: 10px 0;
+}
+
+.links-header a {
+    padding: 10px 20px;
+}
+
+/* Margins */ 
+
+.h2-bottom,
+.projects-container {
+    margin-top: 50px;
+}
+
+.project-card,
+.about-section p {
+    margin-bottom: 20px;
+}
+
+header,
+.project-info,
+.work-h2 {
+    margin-bottom: 40px;
+}
+
+.navigation ul {
+    margin: 0;
+}
+
+.portfolio-image {
+    margin: 30px 0;
+}
+
+
+/* Height & Widths */ 
+
+.project-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.portfolio-image {
+    max-height: 250px;
+    max-width: 50%;
+}
+
+/* Colors */ 
+
+.neonfont {
+    color: rgb(220, 28, 217);
+}
+
+.neonfont-pink {
+    color: rgb(232, 119, 185);
+}
+
+.portfolio-image {
+    box-shadow: 0 0 20px 10px rgb(182, 96, 182);
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+}
+
+.links-header a {
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.links-header a:hover,
+.links-header a.active {
+    background-color: #555;
+}
+
+/* Positioning & Other stylings */ 
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navigation ul {
+    list-style: none;
+    gap: var(--gap-normal)
+}
+
+.links-header a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.portfolio-image {
+    border-radius: 50%;
+}
+
+.project-image {
+    position: relative;
+}

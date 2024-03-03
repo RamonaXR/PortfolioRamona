@@ -20,8 +20,9 @@ footer i {
 }
 
 .work-h2,
-.h1-top {
+.h1-top,
+.project-info,
+.about-section {
     text-align: center;
-    
 }
 
